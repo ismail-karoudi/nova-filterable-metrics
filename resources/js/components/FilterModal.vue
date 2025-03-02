@@ -2,7 +2,7 @@
   <Modal :show="openModal" class="modal"  tabindex="-1" role="dialog">
     <div class="bg-white rounded-lg shadow-lg overflow-hidden w-action-fields">
         <ModalHeader>
-            Filter: {{ title }}
+          {{ __('Filter') }}: {{ title }}
         </ModalHeader>
         <ModalContent>
           <div
@@ -13,7 +13,7 @@
               <label
                 for="nova-time-range"
                 class="inline-block text-80 pt-2 leading-tight"
-                >Time Range</label
+                >{{ __('Time Range') }}</label
               >
             </div>
             <div class="py-6 px-8 w-1/2">
