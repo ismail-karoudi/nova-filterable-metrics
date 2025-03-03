@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "IsmailKaroudi\\Filterable\\": "src/"
+            "Nemrutco\\Filterable\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "IsmailKaroudi\\Filterable\\CardServiceProvider"
+                "Nemrutco\\Filterable\\CardServiceProvider"
             ]
         }
     },
